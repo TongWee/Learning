@@ -2,6 +2,11 @@ package generic;
 
 import java.util.ArrayList;
 
+/**
+ * @author Tong List<int> list = new GenericStack<>(); × List<Integer> list =
+ *         new GenericStack(); √ 泛型类可以定义多个参数<E1, E2, E3>
+ */
+
 public class GenericStack<E> {
 	private ArrayList<E> list = new ArrayList<E>();
 
